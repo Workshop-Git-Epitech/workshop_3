@@ -1,0 +1,16 @@
+name: Workshop
+
+on:
+  push:
+
+jobs:
+  verify-commit:
+    runs-on: ubuntu-latest
+    if: ${{ github.event.head_commit.message == 'fix commit message'}}
+
+    steps:
+      - name: "Flag"
+        run: |
+            ./flag > flag.txt
+            flag = $(cat flag.txt)
+            echo "::notice :: $flag"
