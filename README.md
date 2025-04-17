@@ -15,6 +15,7 @@
 ## 🔍 Où trouver le flag ?
 
 Le flag se trouve en **annotation dans l'onglet Actions** de ce dépôt après modification.
+Pour l'obtenir, vous devez modifier un commit et mettre ceci : "fix commit message".
 
 ---
 
