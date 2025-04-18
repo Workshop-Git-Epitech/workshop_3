@@ -3,6 +3,8 @@
 ## 📌 Consigne
 
 👉 Faites un **fork de ce repo**.
+👉 Activer les github actions dans l'onglet actions
+👉 Faîtes un commit inutile avec un fichier temporaire
 
 ---
 
